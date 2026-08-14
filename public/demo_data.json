@@ -1,0 +1,4188 @@
+{
+ "generatedBy": "export_demo_data.py",
+ "solverOrder": [
+  "Welsh-Powell",
+  "DSATUR",
+  "Simulated Annealing",
+  "Brute-Force DFS",
+  "DSATUR Branch & Bound",
+  "Integer Linear Program"
+ ],
+ "graphs": [
+  {
+   "id": "k4",
+   "name": "K4 (complete)",
+   "category": "known",
+   "n": 4,
+   "m": 6,
+   "knownChi": 4,
+   "edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ]
+   ],
+   "layout": [
+    [
+     0.1164,
+     0.05
+    ],
+    [
+     0.95,
+     0.1164
+    ],
+    [
+     0.8836,
+     0.95
+    ],
+    [
+     0.05,
+     0.8836
+    ]
+   ],
+   "results": {
+    "Welsh-Powell": {
+     "colors": 4,
+     "coloring": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "valid": true,
+     "seconds": 2.4e-05
+    },
+    "DSATUR": {
+     "colors": 4,
+     "coloring": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "valid": true,
+     "seconds": 2.4e-05
+    },
+    "Simulated Annealing": {
+     "colors": 4,
+     "coloring": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "valid": true,
+     "seconds": 0.037166
+    },
+    "Brute-Force DFS": {
+     "colors": 4,
+     "coloring": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "valid": true,
+     "seconds": 3.5e-05
+    },
+    "DSATUR Branch & Bound": {
+     "colors": 4,
+     "coloring": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "valid": true,
+     "seconds": 7.5e-05
+    },
+    "Integer Linear Program": {
+     "colors": 4,
+     "coloring": [
+      1,
+      0,
+      3,
+      2
+     ],
+     "valid": true,
+     "seconds": 0.034924
+    }
+   },
+   "dsaturSteps": [
+    {
+     "node": 0,
+     "color": 0,
+     "saturation": 0,
+     "neighborColorsSeen": []
+    },
+    {
+     "node": 1,
+     "color": 1,
+     "saturation": 1,
+     "neighborColorsSeen": [
+      0
+     ]
+    },
+    {
+     "node": 2,
+     "color": 2,
+     "saturation": 2,
+     "neighborColorsSeen": [
+      0,
+      1
+     ]
+    },
+    {
+     "node": 3,
+     "color": 3,
+     "saturation": 3,
+     "neighborColorsSeen": [
+      0,
+      1,
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "id": "k6",
+   "name": "K6 (complete)",
+   "category": "known",
+   "n": 6,
+   "m": 15,
+   "knownChi": 6,
+   "edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "layout": [
+    [
+     0.6978,
+     0.05
+    ],
+    [
+     0.95,
+     0.4713
+    ],
+    [
+     0.734,
+     0.9217
+    ],
+    [
+     0.2899,
+     0.95
+    ],
+    [
+     0.05,
+     0.5187
+    ],
+    [
+     0.2539,
+     0.0621
+    ]
+   ],
+   "results": {
+    "Welsh-Powell": {
+     "colors": 6,
+     "coloring": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "valid": true,
+     "seconds": 2.9e-05
+    },
+    "DSATUR": {
+     "colors": 6,
+     "coloring": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "valid": true,
+     "seconds": 2.4e-05
+    },
+    "Simulated Annealing": {
+     "colors": 6,
+     "coloring": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "valid": true,
+     "seconds": 0.042962
+    },
+    "Brute-Force DFS": {
+     "colors": 6,
+     "coloring": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "valid": true,
+     "seconds": 0.000647
+    },
+    "DSATUR Branch & Bound": {
+     "colors": 6,
+     "coloring": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "valid": true,
+     "seconds": 0.001672
+    },
+    "Integer Linear Program": {
+     "colors": 6,
+     "coloring": [
+      1,
+      4,
+      2,
+      3,
+      0,
+      5
+     ],
+     "valid": true,
+     "seconds": 0.0142
+    }
+   },
+   "dsaturSteps": [
+    {
+     "node": 0,
+     "color": 0,
+     "saturation": 0,
+     "neighborColorsSeen": []
+    },
+    {
+     "node": 1,
+     "color": 1,
+     "saturation": 1,
+     "neighborColorsSeen": [
+      0
+     ]
+    },
+    {
+     "node": 2,
+     "color": 2,
+     "saturation": 2,
+     "neighborColorsSeen": [
+      0,
+      1
+     ]
+    },
+    {
+     "node": 3,
+     "color": 3,
+     "saturation": 3,
+     "neighborColorsSeen": [
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "node": 4,
+     "color": 4,
+     "saturation": 4,
+     "neighborColorsSeen": [
+      0,
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "node": 5,
+     "color": 5,
+     "saturation": 5,
+     "neighborColorsSeen": [
+      0,
+      1,
+      2,
+      3,
+      4
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "name": "C5 (odd cycle)",
+   "category": "known",
+   "n": 5,
+   "m": 5,
+   "knownChi": 3,
+   "edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ]
+   ],
+   "layout": [
+    [
+     0.4107,
+     0.05
+    ],
+    [
+     0.95,
+     0.2481
+    ],
+    [
+     0.9164,
+     0.8069
+    ],
+    [
+     0.3619,
+     0.95
+    ],
+    [
+     0.05,
+     0.4831
+    ]
+   ],
+   "results": {
+    "Welsh-Powell": {
+     "colors": 3,
+     "coloring": [
+      0,
+      1,
+      0,
+      1,
+      2
+     ],
+     "valid": true,
+     "seconds": 2.3e-05
+    },
+    "DSATUR": {
+     "colors": 3,
+     "coloring": [
+      0,
+      1,
+      0,
+      1,
+      2
+     ],
+     "valid": true,
+     "seconds": 1.5e-05
+    },
+    "Simulated Annealing": {
+     "colors": 3,
+     "coloring": [
+      2,
+      0,
+      2,
+      0,
+      1
+     ],
+     "valid": true,
+     "seconds": 0.030564
+    },
+    "Brute-Force DFS": {
+     "colors": 3,
+     "coloring": [
+      0,
+      1,
+      0,
+      1,
+      2
+     ],
+     "valid": true,
+     "seconds": 1.9e-05
+    },
+    "DSATUR Branch & Bound": {
+     "colors": 3,
+     "coloring": [
+      0,
+      1,
+      0,
+      1,
+      2
+     ],
+     "valid": true,
+     "seconds": 6.3e-05
+    },
+    "Integer Linear Program": {
+     "colors": 3,
+     "coloring": [
+      4,
+      0,
+      1,
+      0,
+      1
+     ],
+     "valid": true,
+     "seconds": 0.016927
+    }
+   },
+   "dsaturSteps": [
+    {
+     "node": 0,
+     "color": 0,
+     "saturation": 0,
+     "neighborColorsSeen": []
+    },
+    {
+     "node": 1,
+     "color": 1,
+     "saturation": 1,
+     "neighborColorsSeen": [
+      0
+     ]
+    },
+    {
+     "node": 2,
+     "color": 0,
+     "saturation": 1,
+     "neighborColorsSeen": [
+      1
+     ]
+    },
+    {
+     "node": 3,
+     "color": 1,
+     "saturation": 1,
+     "neighborColorsSeen": [
+      0
+     ]
+    },
+    {
+     "node": 4,
+     "color": 2,
+     "saturation": 2,
+     "neighborColorsSeen": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c8",
+   "name": "C8 (even cycle)",
+   "category": "known",
+   "n": 8,
+   "m": 8,
+   "knownChi": 2,
+   "edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     7
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     6,
+     7
+    ]
+   ],
+   "layout": [
+    [
+     0.7798,
+     0.1455
+    ],
+    [
+     0.95,
+     0.4454
+    ],
+    [
+     0.8548,
+     0.7799
+    ],
+    [
+     0.5523,
+     0.95
+    ],
+    [
+     0.2174,
+     0.857
+    ],
+    [
+     0.05,
+     0.5554
+    ],
+    [
+     0.1421,
+     0.2211
+    ],
+    [
+     0.4469,
+     0.05
+    ]
+   ],
+   "results": {
+    "Welsh-Powell": {
+     "colors": 2,
+     "coloring": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1
+     ],
+     "valid": true,
+     "seconds": 2.1e-05
+    },
+    "DSATUR": {
+     "colors": 2,
+     "coloring": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1
+     ],
+     "valid": true,
+     "seconds": 8.2e-05
+    },
+    "Simulated Annealing": {
+     "colors": 2,
+     "coloring": [
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0
+     ],
+     "valid": true,
+     "seconds": 0.016356
+    },
+    "Brute-Force DFS": {
+     "colors": 2,
+     "coloring": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1
+     ],
+     "valid": true,
+     "seconds": 1.4e-05
+    },
+    "DSATUR Branch & Bound": {
+     "colors": 2,
+     "coloring": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1
+     ],
+     "valid": true,
+     "seconds": 7.1e-05
+    },
+    "Integer Linear Program": {
+     "colors": 2,
+     "coloring": [
+      7,
+      6,
+      7,
+      6,
+      7,
+      6,
+      7,
+      6
+     ],
+     "valid": true,
+     "seconds": 0.012371
+    }
+   },
+   "dsaturSteps": [
+    {
+     "node": 0,
+     "color": 0,
+     "saturation": 0,
+     "neighborColorsSeen": []
+    },
+    {
+     "node": 1,
+     "color": 1,
+     "saturation": 1,
+     "neighborColorsSeen": [
+      0
+     ]
+    },
+    {
+     "node": 2,
+     "color": 0,
+     "saturation": 1,
+     "neighborColorsSeen": [
+      1
+     ]
+    },
+    {
+     "node": 3,
+     "color": 1,
+     "saturation": 1,
+     "neighborColorsSeen": [
+      0
+     ]
+    },
+    {
+     "node": 4,
+     "color": 0,
+     "saturation": 1,
+     "neighborColorsSeen": [
+      1
+     ]
+    },
+    {
+     "node": 5,
+     "color": 1,
+     "saturation": 1,
+     "neighborColorsSeen": [
+      0
+     ]
+    },
+    {
+     "node": 6,
+     "color": 0,
+     "saturation": 1,
+     "neighborColorsSeen": [
+      1
+     ]
+    },
+    {
+     "node": 7,
+     "color": 1,
+     "saturation": 1,
+     "neighborColorsSeen": [
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c9",
+   "name": "C9 (odd cycle)",
+   "category": "known",
+   "n": 9,
+   "m": 9,
+   "knownChi": 3,
+   "edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     8
+    ]
+   ],
+   "layout": [
+    [
+     0.95,
+     0.5578
+    ],
+    [
+     0.8916,
+     0.2464
+    ],
+    [
+     0.6495,
+     0.05
+    ],
+    [
+     0.3356,
+     0.0559
+    ],
+    [
+     0.1014,
+     0.2656
+    ],
+    [
+     0.05,
+     0.5774
+    ],
+    [
+     0.2115,
+     0.8495
+    ],
+    [
+     0.5058,
+     0.95
+    ],
+    [
+     0.7978,
+     0.8343
+    ]
+   ],
+   "results": {
+    "Welsh-Powell": {
+     "colors": 3,
+     "coloring": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      2
+     ],
+     "valid": true,
+     "seconds": 2.2e-05
+    },
+    "DSATUR": {
+     "colors": 3,
+     "coloring": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      2
+     ],
+     "valid": true,
+     "seconds": 2.1e-05
+    },
+    "Simulated Annealing": {
+     "colors": 3,
+     "coloring": [
+      0,
+      2,
+      1,
+      2,
+      1,
+      2,
+      1,
+      0,
+      1
+     ],
+     "valid": true,
+     "seconds": 0.030706
+    },
+    "Brute-Force DFS": {
+     "colors": 3,
+     "coloring": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      2
+     ],
+     "valid": true,
+     "seconds": 2.8e-05
+    },
+    "DSATUR Branch & Bound": {
+     "colors": 3,
+     "coloring": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      2
+     ],
+     "valid": true,
+     "seconds": 0.000258
+    },
+    "Integer Linear Program": {
+     "colors": 3,
+     "coloring": [
+      0,
+      4,
+      2,
+      0,
+      2,
+      0,
+      4,
+      0,
+      4
+     ],
+     "valid": true,
+     "seconds": 0.080873
+    }
+   },
+   "dsaturSteps": [
+    {
+     "node": 0,
+     "color": 0,
+     "saturation": 0,
+     "neighborColorsSeen": []
+    },
+    {
+     "node": 1,
+     "color": 1,
+     "saturation": 1,
+     "neighborColorsSeen": [
+      0
+     ]
+    },
+    {
+     "node": 2,
+     "color": 0,
+     "saturation": 1,
+     "neighborColorsSeen": [
+      1
+     ]
+    },
+    {
+     "node": 3,
+     "color": 1,
+     "saturation": 1,
+     "neighborColorsSeen": [
+      0
+     ]
+    },
+    {
+     "node": 4,
+     "color": 0,
+     "saturation": 1,
+     "neighborColorsSeen": [
+      1
+     ]
+    },
+    {
+     "node": 5,
+     "color": 1,
+     "saturation": 1,
+     "neighborColorsSeen": [
+      0
+     ]
+    },
+    {
+     "node": 6,
+     "color": 0,
+     "saturation": 1,
+     "neighborColorsSeen": [
+      1
+     ]
+    },
+    {
+     "node": 7,
+     "color": 1,
+     "saturation": 1,
+     "neighborColorsSeen": [
+      0
+     ]
+    },
+    {
+     "node": 8,
+     "color": 2,
+     "saturation": 2,
+     "neighborColorsSeen": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "id": "k34",
+   "name": "K_{3,4} (bipartite)",
+   "category": "known",
+   "n": 7,
+   "m": 12,
+   "knownChi": 2,
+   "edges": [
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     0,
+     6
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     2,
+     6
+    ]
+   ],
+   "layout": [
+    [
+     0.1041,
+     0.5772
+    ],
+    [
+     0.8873,
+     0.4142
+    ],
+    [
+     0.505,
+     0.5127
+    ],
+    [
+     0.373,
+     0.95
+    ],
+    [
+     0.05,
+     0.1676
+    ],
+    [
+     0.6145,
+     0.05
+    ],
+    [
+     0.95,
+     0.83
+    ]
+   ],
+   "results": {
+    "Welsh-Powell": {
+     "colors": 2,
+     "coloring": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "valid": true,
+     "seconds": 2.2e-05
+    },
+    "DSATUR": {
+     "colors": 2,
+     "coloring": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "valid": true,
+     "seconds": 2e-05
+    },
+    "Simulated Annealing": {
+     "colors": 2,
+     "coloring": [
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "valid": true,
+     "seconds": 0.015227
+    },
+    "Brute-Force DFS": {
+     "colors": 2,
+     "coloring": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "valid": true,
+     "seconds": 1.7e-05
+    },
+    "DSATUR Branch & Bound": {
+     "colors": 2,
+     "coloring": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "valid": true,
+     "seconds": 6.5e-05
+    },
+    "Integer Linear Program": {
+     "colors": 2,
+     "coloring": [
+      0,
+      0,
+      0,
+      6,
+      6,
+      6,
+      6
+     ],
+     "valid": true,
+     "seconds": 0.010551
+    }
+   },
+   "dsaturSteps": [
+    {
+     "node": 0,
+     "color": 0,
+     "saturation": 0,
+     "neighborColorsSeen": []
+    },
+    {
+     "node": 3,
+     "color": 1,
+     "saturation": 1,
+     "neighborColorsSeen": [
+      0
+     ]
+    },
+    {
+     "node": 1,
+     "color": 0,
+     "saturation": 1,
+     "neighborColorsSeen": [
+      1
+     ]
+    },
+    {
+     "node": 2,
+     "color": 0,
+     "saturation": 1,
+     "neighborColorsSeen": [
+      1
+     ]
+    },
+    {
+     "node": 4,
+     "color": 1,
+     "saturation": 1,
+     "neighborColorsSeen": [
+      0
+     ]
+    },
+    {
+     "node": 5,
+     "color": 1,
+     "saturation": 1,
+     "neighborColorsSeen": [
+      0
+     ]
+    },
+    {
+     "node": 6,
+     "color": 1,
+     "saturation": 1,
+     "neighborColorsSeen": [
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "id": "w6",
+   "name": "W6 (even wheel)",
+   "category": "known",
+   "n": 7,
+   "m": 12,
+   "knownChi": 3,
+   "edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     0,
+     6
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     6
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     6
+    ]
+   ],
+   "layout": [
+    [
+     0.6456,
+     0.05
+    ],
+    [
+     0.95,
+     0.4081
+    ],
+    [
+     0.8044,
+     0.8569
+    ],
+    [
+     0.354,
+     0.95
+    ],
+    [
+     0.05,
+     0.5963
+    ],
+    [
+     0.1947,
+     0.1438
+    ],
+    [
+     0.5003,
+     0.5033
+    ]
+   ],
+   "results": {
+    "Welsh-Powell": {
+     "colors": 3,
+     "coloring": [
+      1,
+      2,
+      1,
+      2,
+      1,
+      2,
+      0
+     ],
+     "valid": true,
+     "seconds": 2.3e-05
+    },
+    "DSATUR": {
+     "colors": 3,
+     "coloring": [
+      1,
+      2,
+      1,
+      2,
+      1,
+      2,
+      0
+     ],
+     "valid": true,
+     "seconds": 2.2e-05
+    },
+    "Simulated Annealing": {
+     "colors": 3,
+     "coloring": [
+      2,
+      0,
+      2,
+      0,
+      2,
+      0,
+      1
+     ],
+     "valid": true,
+     "seconds": 0.030967
+    },
+    "Brute-Force DFS": {
+     "colors": 3,
+     "coloring": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      2
+     ],
+     "valid": true,
+     "seconds": 2.3e-05
+    },
+    "DSATUR Branch & Bound": {
+     "colors": 3,
+     "coloring": [
+      1,
+      2,
+      1,
+      2,
+      1,
+      2,
+      0
+     ],
+     "valid": true,
+     "seconds": 0.000119
+    },
+    "Integer Linear Program": {
+     "colors": 3,
+     "coloring": [
+      6,
+      4,
+      6,
+      4,
+      6,
+      4,
+      2
+     ],
+     "valid": true,
+     "seconds": 0.010677
+    }
+   },
+   "dsaturSteps": [
+    {
+     "node": 6,
+     "color": 0,
+     "saturation": 0,
+     "neighborColorsSeen": []
+    },
+    {
+     "node": 0,
+     "color": 1,
+     "saturation": 1,
+     "neighborColorsSeen": [
+      0
+     ]
+    },
+    {
+     "node": 1,
+     "color": 2,
+     "saturation": 2,
+     "neighborColorsSeen": [
+      0,
+      1
+     ]
+    },
+    {
+     "node": 2,
+     "color": 1,
+     "saturation": 2,
+     "neighborColorsSeen": [
+      0,
+      2
+     ]
+    },
+    {
+     "node": 3,
+     "color": 2,
+     "saturation": 2,
+     "neighborColorsSeen": [
+      0,
+      1
+     ]
+    },
+    {
+     "node": 4,
+     "color": 1,
+     "saturation": 2,
+     "neighborColorsSeen": [
+      0,
+      2
+     ]
+    },
+    {
+     "node": 5,
+     "color": 2,
+     "saturation": 2,
+     "neighborColorsSeen": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "id": "w7",
+   "name": "W7 (odd wheel)",
+   "category": "known",
+   "n": 8,
+   "m": 14,
+   "knownChi": 4,
+   "edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     6
+    ],
+    [
+     0,
+     7
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     7
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     7
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     6,
+     7
+    ]
+   ],
+   "layout": [
+    [
+     0.7206,
+     0.0782
+    ],
+    [
+     0.95,
+     0.4099
+    ],
+    [
+     0.8343,
+     0.7982
+    ],
+    [
+     0.4631,
+     0.95
+    ],
+    [
+     0.111,
+     0.7481
+    ],
+    [
+     0.05,
+     0.3508
+    ],
+    [
+     0.3227,
+     0.05
+    ],
+    [
+     0.4917,
+     0.4816
+    ]
+   ],
+   "results": {
+    "Welsh-Powell": {
+     "colors": 4,
+     "coloring": [
+      1,
+      2,
+      1,
+      2,
+      1,
+      2,
+      3,
+      0
+     ],
+     "valid": true,
+     "seconds": 2.8e-05
+    },
+    "DSATUR": {
+     "colors": 4,
+     "coloring": [
+      1,
+      2,
+      1,
+      2,
+      1,
+      2,
+      3,
+      0
+     ],
+     "valid": true,
+     "seconds": 2.3e-05
+    },
+    "Simulated Annealing": {
+     "colors": 4,
+     "coloring": [
+      3,
+      0,
+      3,
+      0,
+      3,
+      1,
+      0,
+      2
+     ],
+     "valid": true,
+     "seconds": 0.03527
+    },
+    "Brute-Force DFS": {
+     "colors": 4,
+     "coloring": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      2,
+      3
+     ],
+     "valid": true,
+     "seconds": 0.00034
+    },
+    "DSATUR Branch & Bound": {
+     "colors": 4,
+     "coloring": [
+      1,
+      2,
+      1,
+      2,
+      1,
+      2,
+      3,
+      0
+     ],
+     "valid": true,
+     "seconds": 0.000686
+    },
+    "Integer Linear Program": {
+     "colors": 4,
+     "coloring": [
+      2,
+      3,
+      0,
+      3,
+      0,
+      3,
+      0,
+      1
+     ],
+     "valid": true,
+     "seconds": 0.026857
+    }
+   },
+   "dsaturSteps": [
+    {
+     "node": 7,
+     "color": 0,
+     "saturation": 0,
+     "neighborColorsSeen": []
+    },
+    {
+     "node": 0,
+     "color": 1,
+     "saturation": 1,
+     "neighborColorsSeen": [
+      0
+     ]
+    },
+    {
+     "node": 1,
+     "color": 2,
+     "saturation": 2,
+     "neighborColorsSeen": [
+      0,
+      1
+     ]
+    },
+    {
+     "node": 2,
+     "color": 1,
+     "saturation": 2,
+     "neighborColorsSeen": [
+      0,
+      2
+     ]
+    },
+    {
+     "node": 3,
+     "color": 2,
+     "saturation": 2,
+     "neighborColorsSeen": [
+      0,
+      1
+     ]
+    },
+    {
+     "node": 4,
+     "color": 1,
+     "saturation": 2,
+     "neighborColorsSeen": [
+      0,
+      2
+     ]
+    },
+    {
+     "node": 5,
+     "color": 2,
+     "saturation": 2,
+     "neighborColorsSeen": [
+      0,
+      1
+     ]
+    },
+    {
+     "node": 6,
+     "color": 3,
+     "saturation": 3,
+     "neighborColorsSeen": [
+      0,
+      1,
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "id": "petersen",
+   "name": "Petersen",
+   "category": "known",
+   "n": 10,
+   "m": 15,
+   "knownChi": 3,
+   "edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     7
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     6,
+     9
+    ],
+    [
+     7,
+     9
+    ]
+   ],
+   "layout": [
+    [
+     0.3738,
+     0.05
+    ],
+    [
+     0.9428,
+     0.2528
+    ],
+    [
+     0.7493,
+     0.5505
+    ],
+    [
+     0.2455,
+     0.8487
+    ],
+    [
+     0.05,
+     0.4493
+    ],
+    [
+     0.341,
+     0.3978
+    ],
+    [
+     0.95,
+     0.7628
+    ],
+    [
+     0.6367,
+     0.2165
+    ],
+    [
+     0.5505,
+     0.95
+    ],
+    [
+     0.5031,
+     0.5998
+    ]
+   ],
+   "results": {
+    "Welsh-Powell": {
+     "colors": 3,
+     "coloring": [
+      0,
+      1,
+      0,
+      1,
+      2,
+      1,
+      0,
+      2,
+      2,
+      1
+     ],
+     "valid": true,
+     "seconds": 2.8e-05
+    },
+    "DSATUR": {
+     "colors": 3,
+     "coloring": [
+      0,
+      1,
+      0,
+      1,
+      2,
+      1,
+      0,
+      2,
+      2,
+      1
+     ],
+     "valid": true,
+     "seconds": 2.5e-05
+    },
+    "Simulated Annealing": {
+     "colors": 3,
+     "coloring": [
+      0,
+      2,
+      1,
+      2,
+      1,
+      2,
+      0,
+      0,
+      1,
+      2
+     ],
+     "valid": true,
+     "seconds": 0.032246
+    },
+    "Brute-Force DFS": {
+     "colors": 3,
+     "coloring": [
+      0,
+      1,
+      0,
+      1,
+      2,
+      1,
+      0,
+      2,
+      2,
+      1
+     ],
+     "valid": true,
+     "seconds": 2.3e-05
+    },
+    "DSATUR Branch & Bound": {
+     "colors": 3,
+     "coloring": [
+      0,
+      1,
+      0,
+      1,
+      2,
+      1,
+      0,
+      2,
+      2,
+      1
+     ],
+     "valid": true,
+     "seconds": 0.000266
+    },
+    "Integer Linear Program": {
+     "colors": 3,
+     "coloring": [
+      0,
+      1,
+      3,
+      1,
+      3,
+      1,
+      3,
+      0,
+      0,
+      1
+     ],
+     "valid": true,
+     "seconds": 0.082584
+    }
+   },
+   "dsaturSteps": [
+    {
+     "node": 0,
+     "color": 0,
+     "saturation": 0,
+     "neighborColorsSeen": []
+    },
+    {
+     "node": 1,
+     "color": 1,
+     "saturation": 1,
+     "neighborColorsSeen": [
+      0
+     ]
+    },
+    {
+     "node": 2,
+     "color": 0,
+     "saturation": 1,
+     "neighborColorsSeen": [
+      1
+     ]
+    },
+    {
+     "node": 3,
+     "color": 1,
+     "saturation": 1,
+     "neighborColorsSeen": [
+      0
+     ]
+    },
+    {
+     "node": 4,
+     "color": 2,
+     "saturation": 2,
+     "neighborColorsSeen": [
+      0,
+      1
+     ]
+    },
+    {
+     "node": 5,
+     "color": 1,
+     "saturation": 1,
+     "neighborColorsSeen": [
+      0
+     ]
+    },
+    {
+     "node": 7,
+     "color": 2,
+     "saturation": 2,
+     "neighborColorsSeen": [
+      0,
+      1
+     ]
+    },
+    {
+     "node": 6,
+     "color": 0,
+     "saturation": 1,
+     "neighborColorsSeen": [
+      1
+     ]
+    },
+    {
+     "node": 8,
+     "color": 2,
+     "saturation": 2,
+     "neighborColorsSeen": [
+      0,
+      1
+     ]
+    },
+    {
+     "node": 9,
+     "color": 1,
+     "saturation": 2,
+     "neighborColorsSeen": [
+      0,
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mycielski-3",
+   "name": "Mycielski-3 (triangle-free)",
+   "category": "known",
+   "n": 5,
+   "m": 5,
+   "knownChi": 3,
+   "edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     4
+    ]
+   ],
+   "layout": [
+    [
+     0.3291,
+     0.05
+    ],
+    [
+     0.8857,
+     0.1591
+    ],
+    [
+     0.95,
+     0.7201
+    ],
+    [
+     0.05,
+     0.5371
+    ],
+    [
+     0.4322,
+     0.95
+    ]
+   ],
+   "results": {
+    "Welsh-Powell": {
+     "colors": 3,
+     "coloring": [
+      0,
+      1,
+      0,
+      1,
+      2
+     ],
+     "valid": true,
+     "seconds": 1.8e-05
+    },
+    "DSATUR": {
+     "colors": 3,
+     "coloring": [
+      0,
+      1,
+      0,
+      1,
+      2
+     ],
+     "valid": true,
+     "seconds": 1.5e-05
+    },
+    "Simulated Annealing": {
+     "colors": 3,
+     "coloring": [
+      2,
+      0,
+      2,
+      1,
+      0
+     ],
+     "valid": true,
+     "seconds": 0.029298
+    },
+    "Brute-Force DFS": {
+     "colors": 3,
+     "coloring": [
+      0,
+      1,
+      0,
+      1,
+      2
+     ],
+     "valid": true,
+     "seconds": 1.8e-05
+    },
+    "DSATUR Branch & Bound": {
+     "colors": 3,
+     "coloring": [
+      0,
+      1,
+      0,
+      1,
+      2
+     ],
+     "valid": true,
+     "seconds": 6.4e-05
+    },
+    "Integer Linear Program": {
+     "colors": 3,
+     "coloring": [
+      4,
+      0,
+      1,
+      1,
+      0
+     ],
+     "valid": true,
+     "seconds": 0.018953
+    }
+   },
+   "dsaturSteps": [
+    {
+     "node": 0,
+     "color": 0,
+     "saturation": 0,
+     "neighborColorsSeen": []
+    },
+    {
+     "node": 1,
+     "color": 1,
+     "saturation": 1,
+     "neighborColorsSeen": [
+      0
+     ]
+    },
+    {
+     "node": 2,
+     "color": 0,
+     "saturation": 1,
+     "neighborColorsSeen": [
+      1
+     ]
+    },
+    {
+     "node": 3,
+     "color": 1,
+     "saturation": 1,
+     "neighborColorsSeen": [
+      0
+     ]
+    },
+    {
+     "node": 4,
+     "color": 2,
+     "saturation": 2,
+     "neighborColorsSeen": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "id": "grotzsch",
+   "name": "Grotzsch (Mycielski-4)",
+   "category": "known",
+   "n": 11,
+   "m": 20,
+   "knownChi": 4,
+   "edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     6
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     2,
+     6
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     10
+    ],
+    [
+     7,
+     10
+    ],
+    [
+     8,
+     10
+    ],
+    [
+     9,
+     10
+    ]
+   ],
+   "layout": [
+    [
+     0.3739,
+     0.7254
+    ],
+    [
+     0.3881,
+     0.2613
+    ],
+    [
+     0.6611,
+     0.6447
+    ],
+    [
+     0.6672,
+     0.3592
+    ],
+    [
+     0.2066,
+     0.4884
+    ],
+    [
+     0.6254,
+     0.05
+    ],
+    [
+     0.5954,
+     0.95
+    ],
+    [
+     0.0684,
+     0.2063
+    ],
+    [
+     0.05,
+     0.7629
+    ],
+    [
+     0.95,
+     0.51
+    ],
+    [
+     0.4581,
+     0.4958
+    ]
+   ],
+   "results": {
+    "Welsh-Powell": {
+     "colors": 4,
+     "coloring": [
+      0,
+      1,
+      0,
+      1,
+      2,
+      2,
+      1,
+      3,
+      1,
+      2,
+      0
+     ],
+     "valid": true,
+     "seconds": 3.1e-05
+    },
+    "DSATUR": {
+     "colors": 4,
+     "coloring": [
+      1,
+      0,
+      1,
+      2,
+      0,
+      1,
+      2,
+      1,
+      2,
+      3,
+      0
+     ],
+     "valid": true,
+     "seconds": 0.000135
+    },
+    "Simulated Annealing": {
+     "colors": 4,
+     "coloring": [
+      2,
+      0,
+      3,
+      3,
+      2,
+      2,
+      1,
+      1,
+      0,
+      1,
+      3
+     ],
+     "valid": true,
+     "seconds": 0.055269
+    },
+    "Brute-Force DFS": {
+     "colors": 4,
+     "coloring": [
+      0,
+      1,
+      0,
+      1,
+      2,
+      0,
+      1,
+      0,
+      1,
+      2,
+      3
+     ],
+     "valid": true,
+     "seconds": 0.000474
+    },
+    "DSATUR Branch & Bound": {
+     "colors": 4,
+     "coloring": [
+      1,
+      0,
+      1,
+      2,
+      0,
+      1,
+      2,
+      1,
+      2,
+      3,
+      0
+     ],
+     "valid": true,
+     "seconds": 0.002554
+    },
+    "Integer Linear Program": {
+     "colors": 4,
+     "coloring": [
+      10,
+      9,
+      8,
+      9,
+      10,
+      5,
+      5,
+      5,
+      9,
+      5,
+      10
+     ],
+     "valid": true,
+     "seconds": 0.639121
+    }
+   },
+   "dsaturSteps": [
+    {
+     "node": 10,
+     "color": 0,
+     "saturation": 0,
+     "neighborColorsSeen": []
+    },
+    {
+     "node": 5,
+     "color": 1,
+     "saturation": 1,
+     "neighborColorsSeen": [
+      0
+     ]
+    },
+    {
+     "node": 1,
+     "color": 0,
+     "saturation": 1,
+     "neighborColorsSeen": [
+      1
+     ]
+    },
+    {
+     "node": 0,
+     "color": 1,
+     "saturation": 1,
+     "neighborColorsSeen": [
+      0
+     ]
+    },
+    {
+     "node": 6,
+     "color": 2,
+     "saturation": 2,
+     "neighborColorsSeen": [
+      0,
+      1
+     ]
+    },
+    {
+     "node": 2,
+     "color": 1,
+     "saturation": 2,
+     "neighborColorsSeen": [
+      0,
+      2
+     ]
+    },
+    {
+     "node": 8,
+     "color": 2,
+     "saturation": 2,
+     "neighborColorsSeen": [
+      0,
+      1
+     ]
+    },
+    {
+     "node": 4,
+     "color": 0,
+     "saturation": 2,
+     "neighborColorsSeen": [
+      1,
+      2
+     ]
+    },
+    {
+     "node": 3,
+     "color": 2,
+     "saturation": 2,
+     "neighborColorsSeen": [
+      0,
+      1
+     ]
+    },
+    {
+     "node": 9,
+     "color": 3,
+     "saturation": 3,
+     "neighborColorsSeen": [
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "node": 7,
+     "color": 1,
+     "saturation": 1,
+     "neighborColorsSeen": [
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "id": "er_sparse",
+   "name": "Erdos-Renyi n=14, p=0.2",
+   "category": "random",
+   "n": 14,
+   "m": 15,
+   "knownChi": 3,
+   "edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     0,
+     10
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     8
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     2,
+     13
+    ],
+    [
+     3,
+     7
+    ],
+    [
+     3,
+     10
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     5,
+     11
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     7,
+     10
+    ],
+    [
+     8,
+     10
+    ]
+   ],
+   "layout": [
+    [
+     0.7474,
+     0.4609
+    ],
+    [
+     0.7526,
+     0.4884
+    ],
+    [
+     0.7084,
+     0.5272
+    ],
+    [
+     0.793,
+     0.4117
+    ],
+    [
+     0.6473,
+     0.5445
+    ],
+    [
+     0.9035,
+     0.3919
+    ],
+    [
+     0.9048,
+     0.95
+    ],
+    [
+     0.8409,
+     0.4216
+    ],
+    [
+     0.8013,
+     0.4726
+    ],
+    [
+     0.7965,
+     0.4557
+    ],
+    [
+     0.7923,
+     0.4389
+    ],
+    [
+     0.95,
+     0.3691
+    ],
+    [
+     0.05,
+     0.05
+    ],
+    [
+     0.7163,
+     0.5567
+    ]
+   ],
+   "results": {
+    "Welsh-Powell": {
+     "colors": 3,
+     "coloring": [
+      2,
+      0,
+      1,
+      2,
+      0,
+      1,
+      0,
+      0,
+      2,
+      1,
+      1,
+      0,
+      0,
+      0
+     ],
+     "valid": true,
+     "seconds": 3.2e-05
+    },
+    "DSATUR": {
+     "colors": 3,
+     "coloring": [
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      2,
+      2,
+      0,
+      0,
+      0
+     ],
+     "valid": true,
+     "seconds": 4.8e-05
+    },
+    "Simulated Annealing": {
+     "colors": 3,
+     "coloring": [
+      2,
+      1,
+      2,
+      2,
+      0,
+      0,
+      1,
+      1,
+      2,
+      0,
+      0,
+      2,
+      0,
+      1
+     ],
+     "valid": true,
+     "seconds": 0.042401
+    },
+    "Brute-Force DFS": {
+     "colors": 3,
+     "coloring": [
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      2,
+      2,
+      1,
+      0,
+      1
+     ],
+     "valid": true,
+     "seconds": 9e-05
+    },
+    "DSATUR Branch & Bound": {
+     "colors": 3,
+     "coloring": [
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      2,
+      2,
+      0,
+      0,
+      0
+     ],
+     "valid": true,
+     "seconds": 0.000696
+    },
+    "Integer Linear Program": {
+     "colors": 3,
+     "coloring": [
+      11,
+      8,
+      11,
+      8,
+      8,
+      4,
+      4,
+      11,
+      11,
+      4,
+      4,
+      8,
+      4,
+      4
+     ],
+     "valid": true,
+     "seconds": 0.020058
+    }
+   },
+   "dsaturSteps": [
+    {
+     "node": 1,
+     "color": 0,
+     "saturation": 0,
+     "neighborColorsSeen": []
+    },
+    {
+     "node": 0,
+     "color": 1,
+     "saturation": 1,
+     "neighborColorsSeen": [
+      0
+     ]
+    },
+    {
+     "node": 9,
+     "color": 2,
+     "saturation": 2,
+     "neighborColorsSeen": [
+      0,
+      1
+     ]
+    },
+    {
+     "node": 7,
+     "color": 0,
+     "saturation": 1,
+     "neighborColorsSeen": [
+      2
+     ]
+    },
+    {
+     "node": 10,
+     "color": 2,
+     "saturation": 2,
+     "neighborColorsSeen": [
+      0,
+      1
+     ]
+    },
+    {
+     "node": 3,
+     "color": 1,
+     "saturation": 2,
+     "neighborColorsSeen": [
+      0,
+      2
+     ]
+    },
+    {
+     "node": 8,
+     "color": 1,
+     "saturation": 2,
+     "neighborColorsSeen": [
+      0,
+      2
+     ]
+    },
+    {
+     "node": 2,
+     "color": 1,
+     "saturation": 1,
+     "neighborColorsSeen": [
+      0
+     ]
+    },
+    {
+     "node": 5,
+     "color": 1,
+     "saturation": 1,
+     "neighborColorsSeen": [
+      0
+     ]
+    },
+    {
+     "node": 4,
+     "color": 0,
+     "saturation": 1,
+     "neighborColorsSeen": [
+      1
+     ]
+    },
+    {
+     "node": 11,
+     "color": 0,
+     "saturation": 1,
+     "neighborColorsSeen": [
+      1
+     ]
+    },
+    {
+     "node": 13,
+     "color": 0,
+     "saturation": 1,
+     "neighborColorsSeen": [
+      1
+     ]
+    },
+    {
+     "node": 6,
+     "color": 0,
+     "saturation": 0,
+     "neighborColorsSeen": []
+    },
+    {
+     "node": 12,
+     "color": 0,
+     "saturation": 0,
+     "neighborColorsSeen": []
+    }
+   ]
+  },
+  {
+   "id": "er_medium",
+   "name": "Erdos-Renyi n=16, p=0.35",
+   "category": "random",
+   "n": 16,
+   "m": 41,
+   "knownChi": 4,
+   "edges": [
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     0,
+     12
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     8
+    ],
+    [
+     1,
+     10
+    ],
+    [
+     1,
+     15
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     3,
+     7
+    ],
+    [
+     4,
+     13
+    ],
+    [
+     4,
+     14
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     6,
+     9
+    ],
+    [
+     6,
+     13
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     7,
+     11
+    ],
+    [
+     7,
+     13
+    ],
+    [
+     7,
+     14
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     8,
+     12
+    ],
+    [
+     8,
+     13
+    ],
+    [
+     9,
+     11
+    ],
+    [
+     9,
+     13
+    ],
+    [
+     9,
+     15
+    ],
+    [
+     10,
+     12
+    ],
+    [
+     10,
+     14
+    ],
+    [
+     10,
+     15
+    ],
+    [
+     11,
+     13
+    ],
+    [
+     11,
+     14
+    ],
+    [
+     12,
+     14
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     13,
+     15
+    ],
+    [
+     14,
+     15
+    ]
+   ],
+   "layout": [
+    [
+     0.2205,
+     0.1429
+    ],
+    [
+     0.8158,
+     0.4486
+    ],
+    [
+     0.3879,
+     0.3099
+    ],
+    [
+     0.05,
+     0.4275
+    ],
+    [
+     0.2499,
+     0.5
+    ],
+    [
+     0.779,
+     0.0614
+    ],
+    [
+     0.95,
+     0.4514
+    ],
+    [
+     0.4131,
+     0.7102
+    ],
+    [
+     0.6328,
+     0.2915
+    ],
+    [
+     0.6996,
+     0.6578
+    ],
+    [
+     0.8747,
+     0.2255
+    ],
+    [
+     0.552,
+     0.95
+    ],
+    [
+     0.5315,
+     0.05
+    ],
+    [
+     0.5998,
+     0.6873
+    ],
+    [
+     0.5709,
+     0.5036
+    ],
+    [
+     0.8986,
+     0.6376
+    ]
+   ],
+   "results": {
+    "Welsh-Powell": {
+     "colors": 5,
+     "coloring": [
+      0,
+      0,
+      0,
+      1,
+      2,
+      4,
+      3,
+      3,
+      1,
+      2,
+      2,
+      4,
+      3,
+      0,
+      1,
+      3
+     ],
+     "valid": true,
+     "seconds": 5e-05
+    },
+    "DSATUR": {
+     "colors": 4,
+     "coloring": [
+      2,
+      0,
+      0,
+      3,
+      1,
+      2,
+      3,
+      1,
+      1,
+      2,
+      1,
+      3,
+      0,
+      0,
+      2,
+      3
+     ],
+     "valid": true,
+     "seconds": 6.6e-05
+    },
+    "Simulated Annealing": {
+     "colors": 5,
+     "coloring": [
+      1,
+      1,
+      2,
+      0,
+      0,
+      1,
+      2,
+      4,
+      0,
+      1,
+      3,
+      0,
+      2,
+      3,
+      1,
+      2
+     ],
+     "valid": true,
+     "seconds": 0.080844
+    },
+    "Brute-Force DFS": {
+     "colors": 4,
+     "coloring": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      2,
+      1,
+      3,
+      3,
+      2,
+      3,
+      1,
+      1,
+      0,
+      2,
+      1
+     ],
+     "valid": true,
+     "seconds": 0.001202
+    },
+    "DSATUR Branch & Bound": {
+     "colors": 4,
+     "coloring": [
+      2,
+      0,
+      0,
+      3,
+      1,
+      2,
+      3,
+      1,
+      1,
+      2,
+      1,
+      3,
+      0,
+      0,
+      2,
+      3
+     ],
+     "valid": true,
+     "seconds": 0.001571
+    },
+    "Integer Linear Program": {
+     "colors": 4,
+     "coloring": [
+      1,
+      1,
+      5,
+      0,
+      0,
+      1,
+      0,
+      5,
+      5,
+      1,
+      5,
+      0,
+      0,
+      8,
+      1,
+      0
+     ],
+     "valid": true,
+     "seconds": 0.026664
+    }
+   },
+   "dsaturSteps": [
+    {
+     "node": 13,
+     "color": 0,
+     "saturation": 0,
+     "neighborColorsSeen": []
+    },
+    {
+     "node": 8,
+     "color": 1,
+     "saturation": 1,
+     "neighborColorsSeen": [
+      0
+     ]
+    },
+    {
+     "node": 9,
+     "color": 2,
+     "saturation": 2,
+     "neighborColorsSeen": [
+      0,
+      1
+     ]
+    },
+    {
+     "node": 6,
+     "color": 3,
+     "saturation": 3,
+     "neighborColorsSeen": [
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "node": 7,
+     "color": 1,
+     "saturation": 2,
+     "neighborColorsSeen": [
+      0,
+      2
+     ]
+    },
+    {
+     "node": 11,
+     "color": 3,
+     "saturation": 3,
+     "neighborColorsSeen": [
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "node": 14,
+     "color": 2,
+     "saturation": 3,
+     "neighborColorsSeen": [
+      0,
+      1,
+      3
+     ]
+    },
+    {
+     "node": 1,
+     "color": 0,
+     "saturation": 2,
+     "neighborColorsSeen": [
+      1,
+      3
+     ]
+    },
+    {
+     "node": 10,
+     "color": 1,
+     "saturation": 2,
+     "neighborColorsSeen": [
+      0,
+      2
+     ]
+    },
+    {
+     "node": 15,
+     "color": 3,
+     "saturation": 3,
+     "neighborColorsSeen": [
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "node": 4,
+     "color": 1,
+     "saturation": 2,
+     "neighborColorsSeen": [
+      0,
+      2
+     ]
+    },
+    {
+     "node": 2,
+     "color": 0,
+     "saturation": 2,
+     "neighborColorsSeen": [
+      1,
+      2
+     ]
+    },
+    {
+     "node": 5,
+     "color": 2,
+     "saturation": 3,
+     "neighborColorsSeen": [
+      0,
+      1,
+      3
+     ]
+    },
+    {
+     "node": 12,
+     "color": 0,
+     "saturation": 2,
+     "neighborColorsSeen": [
+      1,
+      2
+     ]
+    },
+    {
+     "node": 0,
+     "color": 2,
+     "saturation": 2,
+     "neighborColorsSeen": [
+      0,
+      1
+     ]
+    },
+    {
+     "node": 3,
+     "color": 3,
+     "saturation": 3,
+     "neighborColorsSeen": [
+      0,
+      1,
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "id": "er_dense",
+   "name": "Erdos-Renyi n=18, p=0.5",
+   "category": "random",
+   "n": 18,
+   "m": 70,
+   "knownChi": 5,
+   "edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     6
+    ],
+    [
+     0,
+     7
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     0,
+     10
+    ],
+    [
+     0,
+     12
+    ],
+    [
+     0,
+     14
+    ],
+    [
+     0,
+     16
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     1,
+     10
+    ],
+    [
+     1,
+     12
+    ],
+    [
+     1,
+     17
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     2,
+     7
+    ],
+    [
+     2,
+     8
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     2,
+     11
+    ],
+    [
+     2,
+     13
+    ],
+    [
+     2,
+     15
+    ],
+    [
+     2,
+     16
+    ],
+    [
+     3,
+     11
+    ],
+    [
+     3,
+     17
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     4,
+     11
+    ],
+    [
+     4,
+     13
+    ],
+    [
+     4,
+     14
+    ],
+    [
+     4,
+     15
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     5,
+     15
+    ],
+    [
+     5,
+     16
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     6,
+     9
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     6,
+     12
+    ],
+    [
+     6,
+     14
+    ],
+    [
+     6,
+     17
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     16
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     8,
+     10
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     8,
+     15
+    ],
+    [
+     8,
+     17
+    ],
+    [
+     9,
+     12
+    ],
+    [
+     9,
+     14
+    ],
+    [
+     9,
+     16
+    ],
+    [
+     10,
+     12
+    ],
+    [
+     10,
+     13
+    ],
+    [
+     10,
+     16
+    ],
+    [
+     10,
+     17
+    ],
+    [
+     11,
+     13
+    ],
+    [
+     11,
+     14
+    ],
+    [
+     11,
+     15
+    ],
+    [
+     11,
+     16
+    ],
+    [
+     12,
+     13
+    ],
+    [
+     12,
+     14
+    ],
+    [
+     12,
+     16
+    ],
+    [
+     13,
+     15
+    ],
+    [
+     13,
+     16
+    ],
+    [
+     14,
+     15
+    ],
+    [
+     14,
+     16
+    ],
+    [
+     14,
+     17
+    ],
+    [
+     15,
+     17
+    ],
+    [
+     16,
+     17
+    ]
+   ],
+   "layout": [
+    [
+     0.619,
+     0.1979
+    ],
+    [
+     0.7696,
+     0.05
+    ],
+    [
+     0.7743,
+     0.863
+    ],
+    [
+     0.05,
+     0.2348
+    ],
+    [
+     0.6038,
+     0.95
+    ],
+    [
+     0.2426,
+     0.5337
+    ],
+    [
+     0.5648,
+     0.3553
+    ],
+    [
+     0.8832,
+     0.6259
+    ],
+    [
+     0.5853,
+     0.6652
+    ],
+    [
+     0.925,
+     0.4296
+    ],
+    [
+     0.7187,
+     0.3333
+    ],
+    [
+     0.3707,
+     0.6824
+    ],
+    [
+     0.95,
+     0.2792
+    ],
+    [
+     0.8619,
+     0.7452
+    ],
+    [
+     0.5392,
+     0.5319
+    ],
+    [
+     0.3856,
+     0.8288
+    ],
+    [
+     0.7072,
+     0.5157
+    ],
+    [
+     0.36,
+     0.3484
+    ]
+   ],
+   "results": {
+    "Welsh-Powell": {
+     "colors": 6,
+     "coloring": [
+      1,
+      5,
+      2,
+      0,
+      3,
+      3,
+      0,
+      4,
+      1,
+      3,
+      2,
+      1,
+      4,
+      5,
+      2,
+      0,
+      0,
+      3
+     ],
+     "valid": true,
+     "seconds": 6e-05
+    },
+    "DSATUR": {
+     "colors": 5,
+     "coloring": [
+      2,
+      1,
+      1,
+      0,
+      4,
+      1,
+      0,
+      3,
+      2,
+      3,
+      3,
+      3,
+      4,
+      2,
+      1,
+      0,
+      0,
+      4
+     ],
+     "valid": true,
+     "seconds": 6.6e-05
+    },
+    "Simulated Annealing": {
+     "colors": 8,
+     "coloring": [
+      0,
+      4,
+      7,
+      3,
+      2,
+      4,
+      1,
+      4,
+      0,
+      5,
+      7,
+      0,
+      6,
+      4,
+      7,
+      1,
+      3,
+      2
+     ],
+     "valid": true,
+     "seconds": 0.104724
+    },
+    "Brute-Force DFS": {
+     "colors": 5,
+     "coloring": [
+      0,
+      1,
+      0,
+      1,
+      2,
+      0,
+      2,
+      1,
+      3,
+      4,
+      4,
+      3,
+      3,
+      1,
+      1,
+      4,
+      2,
+      0
+     ],
+     "valid": true,
+     "seconds": 0.017498
+    },
+    "DSATUR Branch & Bound": {
+     "colors": 5,
+     "coloring": [
+      2,
+      1,
+      1,
+      0,
+      4,
+      1,
+      0,
+      3,
+      2,
+      3,
+      3,
+      3,
+      4,
+      2,
+      1,
+      0,
+      0,
+      4
+     ],
+     "valid": true,
+     "seconds": 0.007686
+    },
+    "Integer Linear Program": {
+     "colors": 5,
+     "coloring": [
+      7,
+      4,
+      4,
+      4,
+      5,
+      4,
+      5,
+      15,
+      9,
+      15,
+      15,
+      9,
+      9,
+      7,
+      4,
+      15,
+      5,
+      7
+     ],
+     "valid": true,
+     "seconds": 0.289777
+    }
+   },
+   "dsaturSteps": [
+    {
+     "node": 16,
+     "color": 0,
+     "saturation": 0,
+     "neighborColorsSeen": []
+    },
+    {
+     "node": 14,
+     "color": 1,
+     "saturation": 1,
+     "neighborColorsSeen": [
+      0
+     ]
+    },
+    {
+     "node": 0,
+     "color": 2,
+     "saturation": 2,
+     "neighborColorsSeen": [
+      0,
+      1
+     ]
+    },
+    {
+     "node": 9,
+     "color": 3,
+     "saturation": 3,
+     "neighborColorsSeen": [
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "node": 12,
+     "color": 4,
+     "saturation": 4,
+     "neighborColorsSeen": [
+      0,
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "node": 6,
+     "color": 0,
+     "saturation": 4,
+     "neighborColorsSeen": [
+      1,
+      2,
+      3,
+      4
+     ]
+    },
+    {
+     "node": 1,
+     "color": 1,
+     "saturation": 4,
+     "neighborColorsSeen": [
+      0,
+      2,
+      3,
+      4
+     ]
+    },
+    {
+     "node": 10,
+     "color": 3,
+     "saturation": 4,
+     "neighborColorsSeen": [
+      0,
+      1,
+      2,
+      4
+     ]
+    },
+    {
+     "node": 8,
+     "color": 2,
+     "saturation": 3,
+     "neighborColorsSeen": [
+      0,
+      1,
+      3
+     ]
+    },
+    {
+     "node": 17,
+     "color": 4,
+     "saturation": 4,
+     "neighborColorsSeen": [
+      0,
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "node": 2,
+     "color": 1,
+     "saturation": 3,
+     "neighborColorsSeen": [
+      0,
+      2,
+      3
+     ]
+    },
+    {
+     "node": 13,
+     "color": 2,
+     "saturation": 4,
+     "neighborColorsSeen": [
+      0,
+      1,
+      3,
+      4
+     ]
+    },
+    {
+     "node": 11,
+     "color": 3,
+     "saturation": 3,
+     "neighborColorsSeen": [
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "node": 15,
+     "color": 0,
+     "saturation": 4,
+     "neighborColorsSeen": [
+      1,
+      2,
+      3,
+      4
+     ]
+    },
+    {
+     "node": 4,
+     "color": 4,
+     "saturation": 4,
+     "neighborColorsSeen": [
+      0,
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "node": 7,
+     "color": 3,
+     "saturation": 4,
+     "neighborColorsSeen": [
+      0,
+      1,
+      2,
+      4
+     ]
+    },
+    {
+     "node": 5,
+     "color": 1,
+     "saturation": 3,
+     "neighborColorsSeen": [
+      0,
+      2,
+      3
+     ]
+    },
+    {
+     "node": 3,
+     "color": 0,
+     "saturation": 3,
+     "neighborColorsSeen": [
+      2,
+      3,
+      4
+     ]
+    }
+   ]
+  }
+ ]
+}
